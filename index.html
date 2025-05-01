@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blinkit Clone</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Blinkit</div>
+    <input type="text" placeholder="Search for products..." />
+    <div class="cart-icon">🛒 <span id="cart-count">0</span></div>
+  </header>
+
+  <div class="filter-bar">
+    <label for="category-select">Filter by category:</label>
+    <select id="category-select" onchange="filterByCategory()">
+      <option value="all">All</option>
+      <option value="fruits">Fruits</option>
+      <option value="dairy">Dairy</option>
+      <option value="bakery">Bakery</option>
+    </select>
+  </div>
+
+  <section class="products-container" id="products-container">
+    <!-- Product cards will be injected here -->
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
