@@ -38,6 +38,12 @@ blinkit-clone/
 
 ---
 
+## 🌐 Live Project
+
+🔗 [View Live](https://vinayaksingh369.github.io/project/)
+
+---
+
 ## 📦 API Used
 
 - [DummyJSON Products API](https://dummyjson.com/products)
@@ -49,4 +55,3 @@ blinkit-clone/
 **Vinayak Singh**
 
 ---
-
